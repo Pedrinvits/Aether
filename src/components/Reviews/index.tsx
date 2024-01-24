@@ -8,12 +8,12 @@ const Reviews = () => {
                     <h1 className="text-3xl">Benefits of buying from brand</h1>
                     <p className="text-sm text-[#FFF]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div className="grid mt-4 grid-cols-3 gap-6 sm:w-1/2">
-                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3>Non-GMO</h3></div>
-                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3>Cruelty-Free</h3></div> 
-                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3>Gluten-Free</h3></div> 
-                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3>Keto-Friendly</h3></div> 
-                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3>Non-Toxic</h3></div> 
-                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3>100% Organic</h3></div> 
+                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3 className="text-sm">Non-GMO</h3></div>
+                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3 className="text-sm">Cruelty-Free</h3></div> 
+                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3 className="text-sm">Gluten-Free</h3></div> 
+                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3 className="text-sm">Keto-Friendly</h3></div> 
+                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3 className="text-sm">Non-Toxic</h3></div> 
+                        <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3 className="text-sm">100% Organic</h3></div> 
                     </div>
                </div>
         </section>
