@@ -1,7 +1,10 @@
 import { FaHeart } from "react-icons/fa";
+import DotPattern from "../magicui/dot-pattern";
+import { cn } from "../../lib/utils";
 const Reviews = () => {
     return ( 
-        <section className="m-auto flex w-full items-center justify-around mt-6 mb-10 h-fit bg-[#1B1B1B] text-white  flex-col md:flex-row p-6 gap-6">
+        <section className=" relative m-auto flex w-full items-center justify-around mt-6 mb-10 h-fit bg-[#1B1B1B] text-white  flex-col md:flex-row p-6 gap-6">
+             
                 <div className="h-[17rem] w-[17rem] bg-[#6B6B6B] rounded-sm"></div>
                <div className="flex flex-col gap-2 sm:w-1/2">
                     <p className="text-sm text-[#FFF]">Reviews</p>
@@ -16,6 +19,9 @@ const Reviews = () => {
                         <div className="flex flex-col items-center justify-center gap-4 w-fit p-4"><FaHeart size={30}/><h3 className="text-sm">100% Organic</h3></div> 
                     </div>
                </div>
+               <DotPattern className={cn(
+          "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]",
+        )}/>  
         </section>
      );
 }
